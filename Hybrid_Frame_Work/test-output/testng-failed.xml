@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.DemowebShop.IListener.ITestL"/>
+  </listeners>
+  <test thread-count="5" name="DemoOrange(failed)">
+    <classes>
+      <class name="com.DemoWebShopTestRunner.RunnerTest">
+        <methods>
+          <include name="utils"/>
+          <include name="validation"/>
+          <include name="depends_other_method"/>
+          <include name="launchapp"/>
+          <include name="end_ofutil"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- com.DemoWebShopTestRunner.RunnerTest -->
+    </classes>
+  </test> <!-- DemoOrange(failed) -->
+</suite> <!-- Failed suite [Suite] -->
